@@ -1,0 +1,4 @@
+# SAMPLE CONFIGURATION
+# Edit and save as config.ini
+
+api_key = generate_a_bugzilla_api_key_and_replace_this_string_with_it
