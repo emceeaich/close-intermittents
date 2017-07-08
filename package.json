@@ -1,0 +1,30 @@
+{
+  "name": "close-intermittents",
+  "version": "1.0.0",
+  "description": "Bulk close intermittent test failure bugs using BMO API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "close": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emceeaich/close-intermittents.git"
+  },
+  "keywords": [
+    "bugzilla",
+    "orange",
+    "factor",
+    "intermittents"
+  ],
+  "author": "Emma Humphries",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/emceeaich/close-intermittents/issues"
+  },
+  "homepage": "https://github.com/emceeaich/close-intermittents#readme",
+  "dependencies": {
+    "ini": "^1.3.4",
+    "make-fetch-happen": "^2.4.13"
+  }
+}
