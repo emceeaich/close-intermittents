@@ -62,8 +62,6 @@ function closeBugList(bugs, i) {
     var slices = Math.ceil(bugs.length/sliceSize)
   , slice, ids;
 
-    if (i > 2) return;
-
     slice = bugs.slice((i*sliceSize), (i+1)*sliceSize);
     ids = slice.map(bug => { return bug.id });
     console.log('closing', ids.join(', '));
